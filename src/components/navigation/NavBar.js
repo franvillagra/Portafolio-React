@@ -2,11 +2,10 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import logo from '../../../assets/img/logo.svg'
-import nav1 from '../../../assets/img/nav-icon1.svg'
-import nav2 from '../../../assets/img/nav-icon2.svg'
-import nav3 from '../../../assets/img/nav-icon3.svg'
+import logo from '../../assets/img/logo.svg'
+import nav1 from '../../assets/img/nav-icon1.svg'
+import nav2 from '../../assets/img/nav-icon2.svg'
+import nav3 from '../../assets/img/nav-icon3.svg'
 
 export const  NavBar=()=> {
 
@@ -64,4 +63,3 @@ const onUpdateActiveLink = (value) =>{
     </Navbar>
   );
 }
-
