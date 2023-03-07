@@ -1,22 +1,19 @@
 import React from 'react'
-import headerImg from "../assets/img/header-img.svg";
 import { Container, Row, Col, Nav , Tab} from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import colorSharp2 from "../assets/img/color-sharp2.png"
 import project1 from "../assets/img/project-img1.png"
-import project2 from "../assets/img/project2.jpg"
+import project2 from "../assets/img/project2.png"
+import molinos from "../assets/img/Molinos.png"
+import rodeo from "../assets/img/ROdeo.png"
+import raco from "../assets/img/Raco.png"
+import TrackVisibility from 'react-on-screen';
 
 
 const Projects = () => {
 
     const projects = [
-        {
-            title: "Bipost",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid inventore illum dolorem adipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
-           tecnologies:"Java - React Js",
-            imageUrl: project1
-
-        },
+       
         {
             title: "Gecros",
             description: "Lorem ipsum dolor sit amet consectetur ipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
@@ -27,19 +24,19 @@ const Projects = () => {
             title: "Molinos Agro",
             description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid inventore illu nemo quo.",
             tecnologies:".NET Core - React Js",
-            imageUrl: project1
+            imageUrl: molinos
         },
         {
             title: "RACO",
             description: "Lorem ipsum dolor sit ametuid inventore illum dolorem adipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
             tecnologies:".NET Core - Angular 8",
-            imageUrl: project1
+            imageUrl: raco
         },
         {
             title: "Rodeo Houston",
             description: "Lntore illum dolorem adipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
             tecnologies:".NET Core - Flutter",
-            imageUrl: project1
+            imageUrl: rodeo
         },
         
         {
@@ -51,11 +48,13 @@ const Projects = () => {
         
     ]
   return (
-    <secion className="project" id="project">
+    <secion className="project" id="projects">
       <Container>
         <Row>
           <Col>
-          
+          <TrackVisibility>
+          {({isVisible}) =>
+          <div className={isVisible ? "animate__animated animate__bounce":""}>
             <h2>
               Projects
             </h2>
@@ -64,11 +63,12 @@ const Projects = () => {
               Sapiente, architecto nesciunt maxime sunt et libero suscipit ut in
               ad hic velit excepturi. Culpa architecto quia perferendis corporis
               molestias qui quidem.
-            </p>
+            </p></div>}
+            </TrackVisibility>
             <Tab.Container id="projects-tab" defaultActiveKey="first">
 
             
-            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+       {/*      <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
       <Nav.Item>
         <Nav.Link eventKey="first">Tab One</Nav.Link>
       </Nav.Item>
@@ -78,13 +78,13 @@ const Projects = () => {
       <Nav.Item>
         <Nav.Link eventKey="third">Option 3</Nav.Link>
       </Nav.Item>
-    </Nav>
+    </Nav> */}
     <Tab.Content>
         <Tab.Pane eventKey="first">
             <Row>
                 {
                     projects.map((project,index) =>{
-                        debugger;
+                        
                         return(
                            <ProjectCard key={index}
                            {...project} />

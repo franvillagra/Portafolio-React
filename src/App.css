@@ -119,9 +119,45 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+
+.header-icon {
+  display: inline-block;
+  margin-left: 14px;
+}
+.header-icon a {
+  width: 42px;
+  height: 42px;
+  background: rgba(217, 217, 217, 0.1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header-icon a::before {
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+ 
+  border-radius: 50%;
+  transform: scale(0);
+
+}
+
+.header-icon a img {
+width: 40%;
+z-index: 1;
+}
+
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;
+    width: 300px;
 }
 .social-icon a {
     width: 42px;
@@ -153,6 +189,9 @@ span.navbar-text {
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
+
+
+
 .social-icon a:hover img {
 	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
 }
@@ -341,6 +380,41 @@ body::-webkit-scrollbar{
   width: 50%;
   margin: 0 auto 15px auto;
 }
+
+/************ Experience Css ************/
+.experience {
+  margin-top: 150px;
+  padding: 0 0 50px 0;
+  position: relative;
+}
+.experience-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+.experience h2 {
+	font-size: 45px;
+	font-weight: 700;
+}
+.experience p {
+    color: #B8B8B8;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+.experience-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.experience-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
 .background-image-left {
   top: 28%;
   position: absolute;
@@ -348,6 +422,8 @@ body::-webkit-scrollbar{
   width: 40%;
   z-index: -4;
 }
+
+
 
 /************ Projects Css ************/
 .project {
@@ -427,6 +503,7 @@ body::-webkit-scrollbar{
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  height: 200px !important;
 }
 .proj-imgbx::before {
   content: "";
@@ -546,6 +623,8 @@ body::-webkit-scrollbar{
 .contact form button:hover::before {
   width: 100%;
 }
+
+
 
 /************ Footer Css ************/
 .footer {

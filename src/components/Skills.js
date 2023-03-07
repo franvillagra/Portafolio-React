@@ -3,9 +3,10 @@ import  Carousel  from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
 import colorSharp from "../assets/img/color-sharp.png"
-import meter1 from "../assets/img/meter1.svg"
-import meter2 from "../assets/img/meter2.svg"
-import meter3 from "../assets/img/meter3.svg"
+import vuelogo from "../assets/img/Vue.svg"
+import reactlogo from "../assets/img/React.svg"
+import angularlogo from "../assets/img/Angular.svg"
+import netlogo from "../assets/img/NET.svg"
 
 const Skills = () => {
   const responsive = {
@@ -36,10 +37,7 @@ const Skills = () => {
             <div className="skill-bx">
               <h2>Skills</h2>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor
-                autem voluptas voluptates impedit, placeat aliquam harum eos
-                assumenda nobis. Perspiciatis laudantium quod exercitationem
-                suscipit. Obcaecati qui ipsam quasi non quisquam.
+              Although my profile is more oriented to Full Stack development, with .NET in the backend, I have worked with differents technologies and tools.
               </p>
               <Carousel
                 responsive={responsive}
@@ -47,16 +45,24 @@ const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image" />
-                  <h1>Web Development</h1>
+                  <img src={netlogo} alt="Image" />
+                  <h2>.NET Core - .NET Framework </h2>
+                  <h4>4 years exp.</h4>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image" />
-                  <h1>Web Development</h1>
+                  <img src={reactlogo} alt="Image" />
+                  <h2>React Js </h2>
+                  <h4>2 years exp.</h4>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image" />
-                  <h1>Web Development</h1>
+                  <img src={angularlogo} alt="Image" />
+                  <h2>Angular 8 - Angular 10</h2>
+                  <h4>2 years exp.</h4>
+                </div>
+                <div className="item">
+                  <img src={vuelogo} alt="Image" />
+                  <h2>Vue Js</h2>
+                  <h4>1.5 years exp.</h4>
                 </div>
               </Carousel>
             </div>
