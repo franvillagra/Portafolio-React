@@ -1,6 +1,6 @@
 {
-  "homepage": "http://franvillagra.github.io/Portafolio-React",
   "name": "portafolio-francisco-villagra",
+  "homepage": "http://franvillagra.github.io/portafolio-francisco-villagra",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

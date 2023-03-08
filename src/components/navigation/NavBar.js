@@ -42,7 +42,7 @@ const onUpdateActiveLink = (value) =>{
 }
 
   return (
-    <Router>
+    <Router  basename={window.location.pathname || ''}>
     <Navbar bg="light" expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
