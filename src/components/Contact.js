@@ -76,7 +76,7 @@ const Contact = () => {
                                 {
                             status.message && 
                             <Alert key={status.message} style={{ marginTop: 30}} variant={status.success === false ? "danger" : "primary"}>
-                            {status.success === true ? "Message sent successfully. I answered you as soon as possible " :"An error occurred while sending the message. Please, contact me through linkedin or send an email to fran96villagra@gmail.com to resolve your concern" }
+                            {status.success === true ? "Message sent successfully. I will answer you as soon as possible " :"An error occurred while sending the message. Please, contact me through linkedin or send an email to fran96villagra@gmail.com to resolve your concern" }
                           </Alert>
                                 }
                         </Row>
