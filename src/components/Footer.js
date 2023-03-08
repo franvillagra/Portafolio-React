@@ -19,10 +19,10 @@ const Footer = () => {
                 </Col>
                 <Col sm={6} className="text-center text-sm-end">
                     <div className="social-icon">
-                        <a href=""  onClick={()=>{window.location.replace('https://www.linkedin.com/in/francisco-villagra/')}}><img src={nav1} /></a>
-                        <a href="" onClick={()=>{window.location.replace('https://github.com/franvillagra')}}><img src={nav2} /></a>
-                        <a href="" onClick={()=>{window.location.replace('https://www.instagram.com/franvillagraa')}}><img src={nav3} /></a>
-                    </div>
+                    <a href='#'  onClick={()=>{window.location.replace('https://www.linkedin.com/in/francisco-villagra/')}}><img src={nav1} alt="" /></a>
+                    <a href='#'  onClick={()=>{window.location.replace('https://github.com/franvillagra')}}><img src={nav2} alt="" /></a>
+                    <a href='#' onClick={()=>{window.location.replace('https://www.instagram.com/franvillagraa')}}><img src={nav3} alt="" /></a>
+                 </div>
                     <p>Copyright 2023. All riht reserved</p>
                 </Col>
             </Row>
