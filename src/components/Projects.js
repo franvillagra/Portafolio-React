@@ -16,33 +16,33 @@ const Projects = () => {
        
         {
             title: "Gecros",
-            description: "Lorem ipsum dolor sit amet consectetur ipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
-            tecnologies:".NET Core - Vue Js",
+            description: "Web Application of healthcare sector oriented to the management of medical coverage of the country.",
+            tecnologies:".NET Core - Vue Js - SQL Server",
             imageUrl: project1
         },
         {
             title: "Molinos Agro",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid inventore illu nemo quo.",
-            tecnologies:".NET Core - React Js",
+            description: "Web Application for the agricultural sector for the management and control of tools, personnel and generation of different internal reports.",
+            tecnologies:".NET Core - React Js - SQL Server",
             imageUrl: molinos
         },
         {
             title: "RACO",
-            description: "Lorem ipsum dolor sit ametuid inventore illum dolorem adipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
-            tecnologies:".NET Core - Angular 8",
+            description: "Web application to manage different alarms that are activated by different changes in temperature, humidity, etc. and that notify the user to his mobile device.",
+            tecnologies:".NET Core - Angular 8 - HeidiSQL",
             imageUrl: raco
         },
         {
             title: "Rodeo Houston",
-            description: "Lntore illum dolorem adipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
-            tecnologies:".NET Core - Flutter",
+            description: "Mobile application for one of the busiest festivals in Houston that includes ticket sales, user creation, integrations with external sdk, etc. and that is managed through a web application.",
+            tecnologies:".NET Core - Flutter  - SQL Server - MySql",
             imageUrl: rodeo
         },
         
         {
             title: "Cym",
-            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.olorem adipisci consequatur porro quaerat reiciendis animi natus laudantium voluptatum ea eum, mollitia fuga sed dolores modi nemo quo.",
-            tecnologies:".NET Core - Angular 10",
+            description: "Web application for management and internal management of suppliers, customers, products, etc. company dedicated to the sale of construction materials.",
+            tecnologies:".NET Core - Angular 10 - SQL Server",
             imageUrl: project2
         },
         
@@ -59,10 +59,7 @@ const Projects = () => {
               Projects
             </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Sapiente, architecto nesciunt maxime sunt et libero suscipit ut in
-              ad hic velit excepturi. Culpa architecto quia perferendis corporis
-              molestias qui quidem.
+            I have worked on several projects focused on different areas, such as health, agriculture, legal, among others. Below you can see some of them, together with the technologies that I have used
             </p></div>}
             </TrackVisibility>
             <Tab.Container id="projects-tab" defaultActiveKey="first">

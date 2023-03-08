@@ -7,6 +7,9 @@ import vuelogo from "../assets/img/Vue.svg"
 import reactlogo from "../assets/img/React.svg"
 import angularlogo from "../assets/img/Angular.svg"
 import netlogo from "../assets/img/NET.svg"
+import sqlserver from "../assets/img/SQL.svg"
+import postgresql from "../assets/img/Postgresql.png"
+import mysql from "../assets/img/Mysql.png"
 
 const Skills = () => {
   const responsive = {
@@ -45,23 +48,38 @@ const Skills = () => {
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={netlogo} alt="Image" />
+                  <img src={netlogo} alt="Image" style={{width:150,height:150}} />
                   <h2>.NET Core - .NET Framework </h2>
                   <h4>4 years exp.</h4>
                 </div>
                 <div className="item">
-                  <img src={reactlogo} alt="Image" />
+                  <img src={reactlogo} alt="Image" style={{width:150,height:150}}/>
                   <h2>React Js </h2>
                   <h4>2 years exp.</h4>
                 </div>
                 <div className="item">
-                  <img src={angularlogo} alt="Image" />
+                  <img src={angularlogo} alt="Image" style={{width:150,height:150}}/>
                   <h2>Angular 8 - Angular 10</h2>
                   <h4>2 years exp.</h4>
                 </div>
                 <div className="item">
-                  <img src={vuelogo} alt="Image" />
+                  <img src={vuelogo} alt="Image" style={{width:150,height:150}}/>
                   <h2>Vue Js</h2>
+                  <h4>1.5 years exp.</h4>
+                </div>
+                <div className="item">
+                  <img src={sqlserver} alt="Image" style={{width:150,height:150}} />
+                  <h2>SQL Server</h2>
+                  <h4>5 years exp.</h4>
+                </div>
+                <div className="item">
+                  <img src={postgresql} alt="Image" style={{width:150,height:150}}/>
+                  <h2>PostgreSQL</h2>
+                  <h4>1.5 years exp.</h4>
+                </div>
+                <div className="item">
+                  <img src={mysql} alt="Image" style={{width:150,height:150}}/>
+                  <h2>MySQL</h2>
                   <h4>1.5 years exp.</h4>
                 </div>
               </Carousel>

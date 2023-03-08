@@ -16,7 +16,8 @@ export const  NavBar=()=> {
 
   const [activeLink, setactiveLink] = useState('home');      
   const [scrolled, setscrolled] = useState(false);
-
+  const [english, setEnglish] = useState(true);
+  
   useEffect(() => {
     
   
@@ -64,7 +65,7 @@ const onUpdateActiveLink = (value) =>{
                 <a href='#'  onClick={()=>{window.location.replace('https://www.linkedin.com/in/francisco-villagra/')}}><img src={nav1} alt="" /></a>
                 <a href='#'  onClick={()=>{window.location.replace('https://github.com/franvillagra')}}><img src={nav2} alt="" /></a>
                 <a href='#' onClick={()=>{window.location.replace('https://www.instagram.com/franvillagraa')}}><img src={nav3} alt="" /></a>
-                <a href='#'><span className="lenguage">ES</span></a>
+                {/* <span className="lenguage" onClick={()=>{setS;localStorage.setItem('lenguage',english == true ? "ES" : "EN" );}}>{english === "true" ? "ES" : "EN"}</span> */}
                 </div>  
                 <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
