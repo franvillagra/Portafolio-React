@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portafolio-francisco-villagra/static/css/main.e1e83d34.css",
-    "main.js": "/portafolio-francisco-villagra/static/js/main.ea734192.js",
+    "main.js": "/portafolio-francisco-villagra/static/js/main.64f385f5.js",
     "static/js/787.09aae08b.chunk.js": "/portafolio-francisco-villagra/static/js/787.09aae08b.chunk.js",
     "static/media/IMG_1317.png": "/portafolio-francisco-villagra/static/media/IMG_1317.c0893e1f3df5315c3505.png",
     "static/media/color-sharp.png": "/portafolio-francisco-villagra/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -35,11 +35,11 @@
     "static/media/nav-icon1.svg": "/portafolio-francisco-villagra/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/Vue.svg": "/portafolio-francisco-villagra/static/media/Vue.f1fd23be1db9361fbcd81511fe862b08.svg",
     "main.e1e83d34.css.map": "/portafolio-francisco-villagra/static/css/main.e1e83d34.css.map",
-    "main.ea734192.js.map": "/portafolio-francisco-villagra/static/js/main.ea734192.js.map",
+    "main.64f385f5.js.map": "/portafolio-francisco-villagra/static/js/main.64f385f5.js.map",
     "787.09aae08b.chunk.js.map": "/portafolio-francisco-villagra/static/js/787.09aae08b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1e83d34.css",
-    "static/js/main.ea734192.js"
+    "static/js/main.64f385f5.js"
   ]
 }
