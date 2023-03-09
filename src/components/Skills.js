@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col } from "react-bootstrap";
 import colorSharp from "../assets/img/color-sharp.png"
 import vuelogo from "../assets/img/Vue.svg"
+import flutterlogo from "../assets/img/flutter.svg"
 import reactlogo from "../assets/img/React.svg"
 import angularlogo from "../assets/img/Angular.svg"
 import netlogo from "../assets/img/NET.svg"
@@ -66,6 +67,11 @@ const Skills = () => {
                   <img src={vuelogo} alt="Image" style={{width:150,height:150}}/>
                   <h2>Vue Js</h2>
                   <h4>1.5 years exp.</h4>
+                </div>
+                <div className="item">
+                  <img src={flutterlogo} alt="Image" style={{width:150,height:150}}/>
+                  <h2>Flutter</h2>
+                  <h4>10 month experience</h4>
                 </div>
                 <div className="item">
                   <img src={sqlserver} alt="Image" style={{width:150,height:150}} />
