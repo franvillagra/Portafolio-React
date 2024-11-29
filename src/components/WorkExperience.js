@@ -8,6 +8,7 @@ import huenei from "../assets/img/Huenei.jpg"
 import dsntec from "../assets/img/Dsntec.jpg"
 import wirall from "../assets/img/Wirall.jpg"
 import taglatam from "../assets/img/Tag.png"
+import smartway from "../assets/img/Smartway.png"
 
 const WorkExperience = () => {
   const responsive = {
@@ -45,6 +46,11 @@ const WorkExperience = () => {
                 infinite={true}
                 className="experience-slider"
               >
+              <div className="item">
+                  <img src={smartway} alt="Image" style={{height:154,width:154}}/>
+                  <h2>Smartway Studio</h2>
+                 
+                </div>
                 <div className="item">
                   <img src={macena} alt="Image" style={{height:154,width:154}}/>
                   <h2>Macena S.A</h2>

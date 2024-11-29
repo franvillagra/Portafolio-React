@@ -23,7 +23,7 @@ const Footer = () => {
                     <a href='#'  onClick={()=>{window.location.replace('https://github.com/franvillagra')}}><img src={nav2} alt="" /></a>
                     <a href='#' onClick={()=>{window.location.replace('https://www.instagram.com/franvillagraa')}}><img src={nav3} alt="" /></a>
                  </div>
-                    <p>Copyright 2023. All riht reserved</p>
+                    <p>Copyright {new Date().getFullYear()}. All riht reserved</p>
                 </Col>
             </Row>
         </Container>

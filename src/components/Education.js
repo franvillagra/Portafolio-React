@@ -13,7 +13,7 @@ import postgresql from "../assets/img/Postgresql.png"
 import mysql from "../assets/img/Mysql.png"
 import oracle from "../assets/img/Oracle.png"
 
-const Skills = () => {
+const Education = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -35,19 +35,18 @@ const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills" >
+    <section className="education" id="educations" >
       <Container>
         <Row>
           <Col>
-            <div className="skill-bx">
-              <h2>Skills</h2>
+            <div className="education-bx">
+              <h2>Education</h2>
               <p>
-              Although my profile is more oriented to Full Stack development, with .NET in the backend, I have worked with differents technologies and tools.
-              </p>
+               </p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="skill-slider"
+                className="education-slider"
               >
                 <div className="item">
                   <img src={netlogo} alt="Image" style={{width:150,height:150}} />
@@ -104,4 +103,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Education;

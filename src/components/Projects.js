@@ -8,12 +8,17 @@ import molinos from "../assets/img/Molinos.png"
 import rodeo from "../assets/img/ROdeo.png"
 import raco from "../assets/img/Raco.png"
 import TrackVisibility from 'react-on-screen';
-
+import avatel from "../assets/img/Avatel.png"
 
 const Projects = () => {
 
     const projects = [
-       
+          {
+            title: "Avatel",
+            description: "Web application for provision of mobile telephony, landline telephony and television.",
+            tecnologies:".NET Core - Vue Js - Docker Oracle - Hangfire - RabbitMQ",
+            imageUrl: avatel
+        },
         {
             title: "Gecros",
             description: "Web Application of healthcare sector oriented to the management of medical coverage of the country.",
