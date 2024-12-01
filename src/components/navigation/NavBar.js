@@ -58,9 +58,9 @@ export  const NavBar = () => {
                 <a href='#' onClick={() => { window.location.replace('https://www.instagram.com/franvillagraa') }}><img src={nav3} alt="Instagram" /></a>
               </div>
               <div className="social-icon" style={{ color: 'white'}}>
-              <span className="language" onClick={() => { setEnglish(!english); localStorage.setItem('language', english ? "ES" : "EN"); }}>
+             {/*  <span className="language" onClick={() => { setEnglish(!english); localStorage.setItem('language', english ? "ES" : "EN"); }}>
                 {english ? "ES" : "EN"}
-              </span>
+              </span> */}
               </div>
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>

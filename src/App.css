@@ -715,7 +715,7 @@ body::-webkit-scrollbar{
   font-weight: 500;
   background: transparent;
   border: 0;
-  padding: 0 15px;
+  padding: 0 ;
 }
 .new-email-bx button {
   background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);

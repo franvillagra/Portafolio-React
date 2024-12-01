@@ -1,106 +1,78 @@
-import React from "react";
-import  Carousel  from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import { Container, Row, Col } from "react-bootstrap";
-import colorSharp from "../assets/img/color-sharp.png"
-import vuelogo from "../assets/img/Vue.svg"
-import flutterlogo from "../assets/img/flutter.svg"
-import reactlogo from "../assets/img/React.svg"
-import angularlogo from "../assets/img/Angular.svg"
-import netlogo from "../assets/img/NET.svg"
-import sqlserver from "../assets/img/SQL.svg"
-import postgresql from "../assets/img/Postgresql.png"
-import mysql from "../assets/img/Mysql.png"
-import oracle from "../assets/img/Oracle.png"
+import React from 'react'
+import { Container, Row, Col, Nav , Tab} from "react-bootstrap";
+import EducationCard from "./EducationCard";
+import colorSharp2 from "../assets/img/color-sharp2.png"
+import unc from "../assets/img/logoFCE.png"
+import utn from "../assets/img/UTN_LOGO_BLANCO.png"
+import TrackVisibility from 'react-on-screen';
+import avatel from "../assets/img/Avatel.png"
 
 const Education = () => {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
 
+    const projects = [
+          {
+            title: "Software Engineer - UTN FRC",
+            description: "Graduated from the Universidad Tecnológica Nacional - Facultad Regional Córdoba. Period from 2014 to 2021.",
+            titles:"Information Systems Engineer",
+            imageUrl: utn
+        },
+        {
+            title: "MBA - UNC FCE", 
+            description: "Studying the second and final year of the MBA (Master in Business Administration) at Universidad Nacional de Córdoba.   \n   From 2024  ",
+            titles:"",
+            imageUrl: unc
+        }
+        
+    ]
   return (
-    <section className="education" id="educations" >
+    <secion className="project" id="education">
       <Container>
         <Row>
           <Col>
-            <div className="education-bx">
-              <h2>Education</h2>
-              <p>
-               </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className="education-slider"
-              >
-                <div className="item">
-                  <img src={netlogo} alt="Image" style={{width:150,height:150}} />
-                  <h2>.NET Core - .NET Framework </h2>
-                  <h4>6 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={vuelogo} alt="Image" style={{width:150,height:150}}/>
-                  <h2>Vue Js</h2>
-                  <h4>3 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={reactlogo} alt="Image" style={{width:150,height:150}}/>
-                  <h2>React Js </h2>
-                  <h4>2 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={angularlogo} alt="Image" style={{width:150,height:150}}/>
-                  <h2>Angular 8 - Angular 10</h2>
-                  <h4>2 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={sqlserver} alt="Image" style={{width:150,height:150}} />
-                  <h2>SQL Server</h2>
-                  <h4>5 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={oracle} alt="Image" style={{width:150,height:150}}/>
-                  <h2>Oracle</h2>
-                  <h4>1.5 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={postgresql} alt="Image" style={{width:150,height:150}}/>
-                  <h2>PostgreSQL</h2>
-                  <h4>1.5 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={mysql} alt="Image" style={{width:150,height:150}}/>
-                  <h2>MySQL</h2>
-                  <h4>1.5 years exp.</h4>
-                </div>
-                <div className="item">
-                  <img src={flutterlogo} alt="Image" style={{width:150,height:150}}/>
-                  <h2>Flutter</h2>
-                  <h4>10 month experience</h4>
-                </div>
-              </Carousel>
-            </div>
+          <TrackVisibility>
+          {({isVisible}) =>
+          <div className={isVisible ? "animate__animated animate__bounce":""}>
+            <h2>
+              Education
+            </h2></div>}
+            </TrackVisibility>
+            <Tab.Container id="education-tab" defaultActiveKey="first">
+
+            
+       {/*      <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+      <Nav.Item>
+        <Nav.Link eventKey="first">Tab One</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="second">Option 2</Nav.Link>
+      </Nav.Item>
+      <Nav.Item>
+        <Nav.Link eventKey="third">Option 3</Nav.Link>
+      </Nav.Item>
+    </Nav> */}
+    <Tab.Content>
+        <Tab.Pane eventKey="first">
+            <Row style={{placeContent: 'center'}}>
+                {
+                    projects.map((project,index) =>{
+                        
+                        return(
+                           <EducationCard key={index}
+                           {...project} />
+                        )
+                    })
+                }
+            </Row>
+        </Tab.Pane>
+        <Tab.Pane eventKey="second"></Tab.Pane>
+        <Tab.Pane eventKey="third"></Tab.Pane>
+    </Tab.Content>
+    </Tab.Container>
           </Col>
         </Row>
       </Container>
-      <img src={colorSharp} alt="" className="background-image-left" />
-    </section>
-  );
-};
+    </secion>
+  )
+}
 
-export default Education;
+export default Education
