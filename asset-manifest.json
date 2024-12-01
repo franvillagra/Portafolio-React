@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio-React/static/css/main.15221f21.css",
-    "main.js": "/Portafolio-React/static/js/main.dfb575f3.js",
+    "main.css": "/Portafolio-React/static/css/main.8951a04d.css",
+    "main.js": "/Portafolio-React/static/js/main.c29e6350.js",
     "static/js/787.09aae08b.chunk.js": "/Portafolio-React/static/js/787.09aae08b.chunk.js",
     "static/media/IMG_1317.png": "/Portafolio-React/static/media/IMG_1317.c0893e1f3df5315c3505.png",
     "static/media/color-sharp.png": "/Portafolio-React/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -14,7 +14,9 @@
     "static/media/CentraNo2-Medium.ttf": "/Portafolio-React/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/Portafolio-React/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/Portafolio-React/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/Avatel.png": "/Portafolio-React/static/media/Avatel.58a53c56fc76e933bdd3.png",
     "static/media/contact-img.svg": "/Portafolio-React/static/media/contact-img.1c8af4bc3e40bd32fa2809c1644b3cf7.svg",
+    "static/media/UTN_LOGO_BLANCO.png": "/Portafolio-React/static/media/UTN_LOGO_BLANCO.06073d315d8f91ca9ceb.png",
     "static/media/Mysql.png": "/Portafolio-React/static/media/Mysql.9abb470bd3a3e2290e39.png",
     "static/media/SQL.svg": "/Portafolio-React/static/media/SQL.8f70a0d524257f6a98583fa7c3bc8222.svg",
     "static/media/project2.png": "/Portafolio-React/static/media/project2.564e1b2db39ac87b44ba.png",
@@ -24,23 +26,23 @@
     "static/media/Tag.png": "/Portafolio-React/static/media/Tag.ed36087f16b3770af173.png",
     "static/media/revicons.eot": "/Portafolio-React/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/Portafolio-React/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/Smartway.png": "/Portafolio-React/static/media/Smartway.1d6beeef6bcaec9d2e73.png",
     "static/media/revicons.woff": "/Portafolio-React/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/React.svg": "/Portafolio-React/static/media/React.116e502cf0410bcef0189289958f8276.svg",
     "static/media/nav-icon3.svg": "/Portafolio-React/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/Portafolio-React/index.html",
-    "static/media/logo.svg": "/Portafolio-React/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
     "static/media/flutter.svg": "/Portafolio-React/static/media/flutter.5e0ebde82050c8fcdf6121b4498b520c.svg",
-    "static/media/NET.svg": "/Portafolio-React/static/media/NET.b4a1f214e0667e233ce63e039e7066ca.svg",
+    "static/media/NET.svg": "/Portafolio-React/static/media/NET.18c10050cdc904fbb0819ae44b69d91f.svg",
     "static/media/nav-icon2.svg": "/Portafolio-React/static/media/nav-icon2.3835240f0179fe23205d594f39a24bd8.svg",
     "static/media/Angular.svg": "/Portafolio-React/static/media/Angular.1fd4bbed6c6768b2fc3d823e861ebd80.svg",
     "static/media/nav-icon1.svg": "/Portafolio-React/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "static/media/Vue.svg": "/Portafolio-React/static/media/Vue.f1fd23be1db9361fbcd81511fe862b08.svg",
-    "main.15221f21.css.map": "/Portafolio-React/static/css/main.15221f21.css.map",
-    "main.dfb575f3.js.map": "/Portafolio-React/static/js/main.dfb575f3.js.map",
+    "static/media/Vue.svg": "/Portafolio-React/static/media/Vue.5dbb5590e89aba651db8315e1fcc21ff.svg",
+    "main.8951a04d.css.map": "/Portafolio-React/static/css/main.8951a04d.css.map",
+    "main.c29e6350.js.map": "/Portafolio-React/static/js/main.c29e6350.js.map",
     "787.09aae08b.chunk.js.map": "/Portafolio-React/static/js/787.09aae08b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.15221f21.css",
-    "static/js/main.dfb575f3.js"
+    "static/css/main.8951a04d.css",
+    "static/js/main.c29e6350.js"
   ]
 }
