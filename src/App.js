@@ -1,30 +1,29 @@
 import './App.css';
-import {NavBar} from './components/navigation/NavBar';
-import {Banner} from './components/Banner';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
-import Education from './components/Education';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import WorkExperience from './components/WorkExperience';
-import {
-  BrowserRouter as Router
-} from "react-router-dom";
+import NavBar         from './components/NavBar';
+import Hero           from './components/Hero';
+import About          from './components/About';
+import TechStack      from './components/TechStack';
+import Experience     from './components/Experience';
+import Projects       from './components/Projects';
+import Certifications from './components/Certifications';
+import Achievements   from './components/Achievements';
+import Contact        from './components/Contact';
+import Footer         from './components/Footer';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
     <div className="App">
-        <NavBar />
-        <Banner />
-        <Skills />
-        <WorkExperience />
-        <Projects />
-        <Education />
-        <Contact />
-       <Footer />
+      <NavBar />
+      <Hero />
+      <About />
+      <TechStack />
+      <Experience />
+      <Projects />
+      <Certifications />
+      <Achievements />
+      <Contact />
+      <Footer />
     </div>
-    </Router>
   );
 }
 

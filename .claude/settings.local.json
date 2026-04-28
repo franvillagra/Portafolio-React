@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npx tailwindcss *)",
+      "Bash(node_modules/.bin/tailwindcss init *)",
+      "PowerShell(cd \"d:\\\\Projects\\\\Portafolio\\\\Portafolio-React\" && npm start 2>&1 &)",
+      "PowerShell(Set-Location \"d:\\\\Projects\\\\Portafolio\\\\Portafolio-React\"; $env:CI = \"false\"; npm run build 2>&1 | Select-Object -Last 30)",
+      "PowerShell(Set-Location \"d:\\\\Projects\\\\Portafolio\\\\Portafolio-React\"; $env:CI = \"false\"; npm run build 2>&1 | Select-Object -Last 20)",
+      "Bash(npm run *)"
+    ]
+  }
+}
